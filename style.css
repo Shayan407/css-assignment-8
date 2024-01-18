@@ -1,0 +1,299 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+#main{
+    display: flex;
+    margin-top: 10px;
+    margin-left: 50px;
+}
+#whatsapp{
+    display: flex;
+    margin-top: 10px;
+    margin-left: 14px;
+    margin-bottom: 0%;
+    margin-right: 0%;
+    padding: 0%;
+    /* filter: brightness(0) saturate(100%) invert(100%) sepia(0%) hue-rotate(120deg);     */
+    font-size: 30px;
+}
+#chat{
+    display: flex;
+    margin-top: 15px;
+    margin-left: 5px;
+    margin-bottom: 20px;
+    margin-right: 0%;
+    padding: 10px;
+    position: fixed;
+    filter: brightness(0) saturate(100%) invert(100%) sepia(0%) hue-rotate(120deg);    
+    font-size: 20px;
+}
+#chat:hover{
+    background-color: rgba(73, 73, 73,0.1);
+    border-radius: 6px;
+}
+#phone{
+    display: flex;
+    margin-top: 60px;
+    margin-left: 5px;
+    margin-bottom: 20px;
+    margin-right: 0%;
+    padding: 10px;
+    position: fixed;
+    filter: brightness(0) saturate(100%) invert(100%) sepia(0%) hue-rotate(120deg);    
+    font-size: 20px;
+}
+#phone:hover{
+    background-color: rgba(73, 73, 73,0.1);
+    border-radius: 6px;
+}
+#status{
+    display: flex;
+    margin-top: 105px;
+    margin-left: 5px;
+    margin-bottom: 0%;
+    margin-right: 0%;
+    padding: 10px;
+    position: fixed;
+    filter: brightness(0) saturate(100%) invert(100%) sepia(0%) hue-rotate(120deg);    
+    font-size: 20px;
+}
+#status:hover{
+    background-color: rgba(73, 73, 73,0.1);
+    border-radius: 6px;
+}
+#star{
+    display: flex;
+    margin-top: 390px;
+    margin-left: 3px;
+    margin-bottom: 0%;
+    margin-right: 0%;
+    padding: 10px;
+    position: fixed;
+    filter: brightness(0) saturate(100%) invert(100%) sepia(0%) hue-rotate(120deg);    
+    font-size: 20px;
+}
+#star:hover{
+    background-color: rgba(73, 73, 73,0.1);
+    border-radius: 6px;
+}
+#trash{
+    display: flex;
+    margin-top: 440px;
+    margin-left: 5px;
+    margin-bottom: 0%;
+    margin-right: 0%;
+    padding: 10px;
+    position: fixed;
+    filter: brightness(0) saturate(100%) invert(100%) sepia(0%) hue-rotate(120deg);    
+    font-size: 20px;
+}
+#trash:hover{
+    background-color: rgba(73, 73, 73,0.1);
+    border-radius: 6px;
+}
+#setting{
+    display: flex;
+    margin-top: 490px;
+    margin-left: 3px;
+    margin-bottom: 0%;
+    margin-right: 0%;
+    padding: 10px;
+    position: fixed;
+    filter: brightness(0) saturate(100%) invert(100%) sepia(0%) hue-rotate(120deg);    
+    font-size: 20px;
+}
+#setting:hover{
+    background-color: rgba(73, 73, 73,0.1);
+    border-radius: 6px;
+}
+#user{
+    display: flex;
+    margin-top: 530px;
+    margin-left: 1px;
+    margin-bottom: 0%;
+    margin-right: 0%;
+    padding: 10px;
+    position: fixed;
+    filter: brightness(0) saturate(100%) invert(100%) sepia(0%) hue-rotate(120deg);    
+    font-size: 25px;
+}
+#user:hover{
+    background-color: rgba(73, 73, 73,0.1);
+    border-radius: 6px;
+}
+#p1{
+    font-size: 13px;
+    font-family: montserrat;
+    font-weight: 500 !important;
+    letter-spacing: -0.5px;
+    margin-left: 8px;
+    margin-top: 6px;
+    color: white;
+}
+#box1{
+    background-color: #2c2c2c;
+    height: 91vh;
+    width: 31%;
+    box-sizing: border-box;
+    border-top-left-radius: 14px;
+    border-right: 1px solid black;
+    padding-top: 25px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+#heading{
+    font-family: 'montserrat';
+    font-weight: 900px !important;
+    font-size: 25px;
+    letter-spacing: -1px;
+    color: white;
+    position: fixed;
+}
+#icon1{
+    position: fixed;
+    margin-top: -1px;
+    margin-left: 270px;
+    font-size: 20px;
+    box-sizing: border-box;
+    padding: 10px;
+    filter: invert(100%) sepia(1%) saturate(1%) hue-rotate(1deg) brightness(1000%) contrast(100%);
+}
+#icon1:hover{
+    background-color: rgba(73, 73, 73,0.1);
+    border-radius: 6px;
+    /* width: 50px;
+    height: 50px; */
+    /* text-align: center; */
+}
+#icon2{
+    position: fixed;
+    margin-top: -1px;
+    margin-left: 320px;
+    font-size: 20px;
+    box-sizing: border-box;
+    padding: 10px;
+    filter: invert(100%) sepia(1%) saturate(1%) hue-rotate(1deg) brightness(1000%) contrast(100%);
+}
+#icon2:hover{
+    background-color: rgba(73, 73, 73,0.1);
+    border-radius: 6px;
+}
+input{
+    background-color: rgba(255, 255, 255, 0.05);
+    color: rgb(179, 179, 179);
+    position: fixed;
+    border: none;
+    border-bottom: 1px solid rgb(179, 179, 179);
+    margin-top: 50px;
+    padding: 2px;
+    padding-left: 35px;
+    border-radius: 6px;
+    font-size: 14px;
+    width: 23vw;
+    height: 5vh;
+}
+input::placeholder{
+    color: white;
+    position: fixed;
+}
+#icon3{
+    position: fixed;
+    margin-top: 50px;
+    margin-left: 0px;
+    font-size: 13px;
+    box-sizing: border-box;
+    padding: 10px;
+    filter: invert(100%) sepia(1%) saturate(1%) hue-rotate(1deg) brightness(1000%) contrast(100%);
+}
+input:focus{
+    border:none;
+    outline: none;
+    background-color: #00000062;
+    border-bottom: 1px solid #108e47;
+}
+#box2{
+    background-color: #2c2c2c;
+    box-sizing: border-box;
+    height: 91vh;
+    width: 69%;
+    padding-top: 180px;
+    padding-bottom: 180px;
+    padding-right:220px ;
+    padding-left:220px ;
+    font-size: 80px;
+    text-align: center;
+}
+#p2{
+    font-size: 20px;
+    font-family: montserrat;
+    font-weight: 500px;
+    margin-top: 10px;
+    color: white;
+}
+#p3{
+    font-size: 13px;
+    font-family: montserrat;
+    font-weight: 500px;
+    margin-top: 10px;
+    color: rgba(255, 255, 255, 0.493);
+}
+.users{
+    font-size: 40px;
+    position: absolute;
+    top: 180px;
+}
+.h1{
+    font-family: montserrat;
+    font-weight: 800 !important;
+    font-size: 15px;
+    position: absolute;
+    top: 3px;
+    left: 60px;
+    color: white;
+}
+.p1{
+    font-family: montserrat;
+    font-size: 15px;
+    color: rgba(255, 255, 255, 0.637);
+    /* padding-right: 100px; */
+    position: absolute;
+    bottom: 3px;
+    left: 60px;
+}
+#user2{
+    position: absolute;
+    top: 55px;
+}
+#user3{
+    position: absolute;
+    top: 110px;
+}
+#user4{
+    position: absolute;
+    top: 165px;
+}
+#user5{
+    position: absolute;
+    top: 220px;
+}
+#user6{
+    position: absolute;
+    top: 275px;
+}
+#user7{
+    position: absolute;
+    top: 330px;
+}
+#user8{
+    position: absolute;
+    top: 385px;
+}
+#user9{
+    position: absolute;
+    top: 440px;
+}
+#user10{
+    position: absolute;
+    top: 495px;
+}
